@@ -1,3 +1,4 @@
+/* Code for version 0.1
 // api settings
 const api = {
     key: "bd5e378503939ddaee76f12ad7a97608",
@@ -43,8 +44,10 @@ function displayResults(weather) {
     let weather_element = document.querySelector('.weather');
     weather_element.innerHTML = weather.current.weater.main + ", " + weather.current.weater.description;
     console.log("End");
+} */
 
-
-
-
-}
+const cityInput = document.querySelector('.city-input');
+const searchButton = document.querySelector('.search-btn');
+const locationButton = document.querySelector('.location-btn');
+const currentWeather = document.querySelector('.current-weather');
+const weatherCards = document.querySelector('.weather-cards');
