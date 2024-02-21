@@ -7,14 +7,68 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="app">
+    <h1>Weather app 1.0</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Type a city name</h3>
+            <input type="text" class="city-input" placeholder="E.g. Bucuresti, London" />
+            <button class="search-btn">Search</button>
+            <hr />
+            <div class="separator"></div>
+            <button class="location-btn">Use current location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <h2>City (__)</h2>
+                <h5>Temperature: °C</h5>
+                <h5>Wind: m/s</h5>
+                <h5>Humidity: %</h5>
+            </div>
+            <div class="days-forecast">
+                <h2>5-day forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>Date</h3>
+                        <h5>Temp </h5>
+                        <h5>Wind</h5>
+                        <h5>Humidity</h5>
+                    </li>
+                    <li class="card">
+                        <h3>Date</h3>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>
+                    </li>
+                    <li class="card">
+                        <h3>Date</h3>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>
+                    </li>
+                    <li class="card">
+                        <h3>Date</h3>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>
+                    </li>
+                    <li class="card">
+                        <h3>Date</h3>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="app">
         <header>
             <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city ..." />
         </header>
         <main>
             <section class="location">
                 <div class="city">Chisinau, MD</div>
-                <div class="date">Monday, 19 February 2024</div> <!-- Replace with some js-->
+                <div class="date">Monday, 19 February 2024</div> 
                 <div class="current">
                     <div class="temp">18<span>°C</span></div>
                     <div class="weather">Sunny</div>
@@ -22,7 +76,7 @@
                 </div>
             </section>
         </main>
-    </div>
+    </div> -->
     <script src="main.js"></script>
 </body>
 </html>
